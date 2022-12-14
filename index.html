@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALBART Studio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <section class="container nav__container">
+            <div class="wrapper">
+                <a href="#header"><img class="nav__logo" src="./src/Logo.png" alt="logo"></a>
+                <img class="nav__icon" src="./src/menu_icon.png" alt="humburger">
+            </div>
+            <ul class="nav__breadcrumbs">
+                <li class="nav__item nav__item_active"><a href="#header">Главная</a></li>
+                <li class="nav__item"><a href="#services">Услуги</a></li>
+                <li class="nav__item"><a href="#works">Портфолио</a></li>
+                <li class="nav__item"><a href="#contact">Контакты</a></li>
+            </ul>
+        </section>
+    </nav>
+    <header id="header" class="header">
+        <section class="container header__container">
+            <section class="header__text">
+                <h1 class="header__title">Дизайн и верстка <br> от <span class="header__title_color">студии ALBART</span></h1>
+                <ul class="header__list">
+                    <li class="header__item">Лендинги и многостраничые сайты</li>
+                    <li class="header__item">Реклама и продижение</li>
+                    <li class="header__item">Фирменные логотипы и многое другое</li>
+                </ul>
+                <button class="contactButton">Связаться с нами</button>
+            </section>
+            <section class="picture" id="picture1">
+                <div class="pic"><img src="./src/headerPicture1.png" alt="headerPicture"></div>
+                <div class="pic"><img src="./src/headerPicture2.png" alt="headerPicture"></div>
+                <div class="pic"><img src="./src/headerPicture3.png" alt="headerPicture"></div>
+                <div class="pic"><img src="./src/headerPicture4.png" alt="headerPicture"></div>
+            </section>
+        </section>
+    </header>
+    <section id="services" class="services">
+        <section class="container services__container">
+            <h1 class="title title_alignCenter">Воплощаем ваши идеи в реальность</h1>
+            <section class="serviceList">
+                <div class="service">
+                    <div class="service__title">
+                        <h2>Бизнес</h2>
+                    </div>
+                    <div class="service__picture">
+                        <img src="./src/serviceForBusiness.png" alt="serviceForBusiness">
+                    </div>
+                    <div class="service__description">
+                        <p>Многостраничные приложения и лендинги</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service__title">
+                        <h2>Дизайн</h2>
+                    </div>
+                    <div class="service__picture">
+                        <img src="./src/serviceForAd.png" alt="serviceForAd">
+                    </div>
+                    <div class="service__description">
+                        <p>Реклама и логотипы</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service__title">
+                        <h2>Образование</h2>
+                    </div>
+                    <div class="service__picture">
+                        <img src="./src/serviceForEducation.png" alt="serviceForEducation">
+                    </div>
+                    <div class="service__description">
+                        <p>Авторские сертификаты и грамоты</p>
+                    </div>
+                </div>
+            </section>
+            <button class="contactButton">Связаться с нами</button>
+        </section>
+    </section>
+    <section id="works" class="works">
+        <section class="container works__container">
+            <h1 class="title title_color title_alignLeft">Нет идеи? Посмотрите наши работы</h1>
+            <section class="workList" id="workList"></section>
+            <button class="showMoreButton">Больше</button>
+        </section>
+    </section>
+    <section class="whyUs">
+        <section class="container whyUs__container">
+            <h1 class="title title_alignRight">Почему мы?</h1>
+            <section class="advantageList">
+                <div class="advantage">
+                    <div class="advandtage__picture">
+                        <img src="./src/advantageCountry.png" alt="">
+                    </div>
+                    <div class="advatage__info advantage__info_red">
+                        <span class="advatage__number">17</span>
+                    </div>
+                    <div class="advatage__description">
+                        <h2>Стран с клиентами</h2>
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advandtage__picture">
+                        <img src="./src/advantageWork.png" alt="">
+                    </div>
+                    <div class="advatage__info advantage__info_green">
+                        <span class="advatage__number">98</span>
+                    </div>
+                    <div class="advatage__description">
+                        <h2>Успешных проектов</h2>
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advandtage__picture">
+                        <img src="./src/advantageAge.png" alt="">
+                    </div>
+                    <div class="advatage__info advantage__info_blue">
+                        <span class="advatage__number">4</span>
+                    </div>
+                    <div class="advatage__description">
+                        <h2>Года в сфере<br>дизайна и разработки</h2>
+                    </div>
+                </div>
+            </section>
+            <button class="contactButton ">Связаться с нами</button>
+        </section>
+    </section>
+    <section id="contact" class="contact">
+        <section class="container contact__container">
+            <h1 class="title title_alignCenter">Заинтересовались? Свяжитесь с нами</h1>
+            <form id="contactForm" class="contactForm">
+                <div class="social">
+                    <div class="social__item"><img src="./src/whatsapp_icon.png" alt="whatsapp"></div>
+                    <div class="social__item"><img src="./src/telegram_icon.png" alt="telegram"></div>
+                    <div class="social__item"><img src="./src/instagram_icon.png" alt="instagram"></div>
+                </div>
+                <input class="contactForm__textbox contactForm__phone" type="tel" name="phone_number" placeholder="x(xxx)xxx-xx-xx">
+                <input class="contactForm__textbox contactForm__email" type="email" name="email" placeholder="example@email.com">
+                <textarea class="contactForm__textbox contactForm__textbox_height contactForm__message" name="message" cols="30" rows="10" placeholder="Пожалуйста, свяжитесь со мной."></textarea>
+                <button type="submit" class="submit"></button>
+            </form>
+        </section>
+    </section>
+    <footer class="footer">
+        <p>&copy; ALBART Studio</p>
+    </footer>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/nav.js"></script>
+    <script type="text/javascript" src="./js/transformCart.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="./js/email.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("gRLQ5sVRpJId2IjfT");
+        })();
+     </script>
+</body>
+</html>
