@@ -32,7 +32,7 @@ img {
 }
 .contactButton {
     width: fit-content;
-    padding: 0.75rem 1.25rem;
+    padding: 1.5rem 1.25rem;
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
     border-radius: 1.5rem;
     border: none;
@@ -196,7 +196,7 @@ img {
     left: 0;
     width: 100%;
     height: 3.6rem;
-    background-image: url('../src/__before.png');
+    background-image: url('../src/before.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     transform: translateY(-100%);
@@ -208,7 +208,7 @@ img {
     left: 0;
     width: 100%;
     height: 3.6rem;
-    background-image: url('../src/__after.png');
+    background-image: url('../src/after.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     transform: translateY(100%);
